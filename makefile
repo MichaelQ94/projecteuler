@@ -1,6 +1,9 @@
 CC=g++
 CFLAGS=-Wall -std=c++11
 
+46: prime.o
+	$(CC) $(CFLAGS) 46.cpp prime.o -o 46
+
 45:
 	$(CC) $(CFLAGS) 45.cpp ../mathlib/algorithm.h -o 45
 
