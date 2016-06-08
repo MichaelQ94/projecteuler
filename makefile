@@ -1,6 +1,9 @@
 CC=g++
 CFLAGS=-Wall -std=c++11
 
+45:
+	$(CC) $(CFLAGS) 45.cpp ../mathlib/algorithm.h -o 45
+
 44:
 	$(CC) $(CFLAGS) 44.cpp ../mathlib/algorithm.h -o 44
 
