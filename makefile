@@ -1,6 +1,15 @@
 CC=g++
 CFLAGS=-Wall -std=c++11
 
+50: prime.o
+	$(CC) $(CFLAGS) 50.cpp prime.o -o 50
+
+49: prime.o
+	$(CC) $(CFLAGS) 49.cpp prime.o -o 49
+
+48:
+	$(CC) $(CFLAGS) 48.cpp -o 48
+
 47: prime.o
 	$(CC) $(CFLAGS) 47.cpp prime.o -o 47
 
