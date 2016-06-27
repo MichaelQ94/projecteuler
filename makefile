@@ -4,6 +4,9 @@ CFLAGS=-Wall -std=c++11
 clean:
 	rm -f *.o 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52
 
+53: mathlib.o
+	$(CC) $(CFLAGS) 53.cpp mathlib.o -o 53
+
 52: mathlib.o
 	$(CC) $(CFLAGS) 52.cpp mathlib.o -o 52
 
